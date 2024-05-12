@@ -1,0 +1,32 @@
+package com.Practise.main;
+import com.Practise.services.*;
+
+//Target class
+public class Amazon {
+	
+	static {
+		System.out.println("Amazon Class Loaded");
+	}
+	
+	public Amazon() {
+		System.out.println(false);
+	}
+	
+	private DeliverService service;
+	
+	public Amazon(DeliverService service) {
+		
+		this.service = service;
+	}
+
+	public void setService(DeliverService service) {
+		this.service = service;
+	}
+
+	public Boolean deliverTheProduct(Double amount) {
+		return service.deliverProduct(amount);
+	}
+	
+	
+
+}

@@ -1,0 +1,8 @@
+package com.Practise.config;
+
+public class Config {
+	
+	public Config() {
+		System.out.println("")
+	}
+}

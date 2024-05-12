@@ -1,0 +1,11 @@
+package Services;
+
+public class BlueDart implements DeliverService {
+
+	@Override
+	public Boolean deliverProduct() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

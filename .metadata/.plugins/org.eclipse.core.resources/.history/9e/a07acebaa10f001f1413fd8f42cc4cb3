@@ -1,0 +1,14 @@
+package com.Practise1;
+import Services.DeliverService;
+
+public class Amazon {
+	
+	private DeliverService service;
+	
+	public Boolean deliverTheProduct(Double amount) {
+		return service.deliverProduct(amount);
+	}
+	
+	
+
+}

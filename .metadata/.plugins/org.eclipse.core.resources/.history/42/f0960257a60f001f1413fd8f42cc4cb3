@@ -1,0 +1,24 @@
+package com.Practise1;
+import Services.DeliverService;
+
+//Target class
+public class Amazon {
+	
+	private DeliverService service;
+	
+	public Amazon(DeliverService service) {
+		super();
+		this.service = service;
+	}
+
+	public void setService(DeliverService service) {
+		this.service = service;
+	}
+
+	public Boolean deliverTheProduct(Double amount) {
+		return service.deliverProduct(amount);
+	}
+	
+	
+
+}

@@ -1,0 +1,9 @@
+package com.Pratise.DAO;
+
+public class Dao {
+	public Dao() {
+		System.out.println("Configuration Files object is created");
+	}
+	
+	publi
+}

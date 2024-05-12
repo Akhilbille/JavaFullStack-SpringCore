@@ -1,0 +1,12 @@
+package com.Practise.main;
+
+import org.springframework.context.ApplicationContext;
+
+public class LaunchApp1 {
+	
+	public static void main(String[] args) {
+		
+		ApplicationContext container = new ClassPathXmlApplicationContext();
+	};
+
+}

@@ -1,0 +1,8 @@
+package com.Practise.controller;
+
+public class Controller {
+
+	public Config() {
+		System.out.println("Configuration Files object is created");
+	}
+}

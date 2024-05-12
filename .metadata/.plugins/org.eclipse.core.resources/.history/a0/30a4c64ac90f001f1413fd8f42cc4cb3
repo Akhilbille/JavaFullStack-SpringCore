@@ -1,0 +1,19 @@
+package com.Practise.services;
+
+public class DHL implements DeliverService {
+	
+	static {
+		System.out.println("Amazon Class Loaded.");
+	}
+	
+	public Amazon() {
+		System.out.println("Amazon Object created.");
+	}
+
+	@Override
+	public Boolean deliverProduct(Double amount) {
+		System.out.println("Delivering through DHL : "+amount);
+		return true;
+	}
+
+}

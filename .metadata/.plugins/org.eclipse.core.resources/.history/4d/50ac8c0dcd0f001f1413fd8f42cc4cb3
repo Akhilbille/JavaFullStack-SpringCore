@@ -1,0 +1,12 @@
+package com.Practise.main;
+import com.Practise.services.*;
+
+
+public class LaunchApp1 {
+	
+	public static void main(String[] args) {
+		
+		Appl
+	};
+
+}

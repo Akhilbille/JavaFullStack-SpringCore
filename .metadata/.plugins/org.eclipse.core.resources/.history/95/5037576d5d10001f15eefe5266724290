@@ -1,0 +1,20 @@
+package com.Practise.main;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.Practise.config.Config;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ApplicationContext container = new ClassPathXmlApplicationContext("applicationconfig.xml");
+		Config configBean = container.getBean(Config.class);
+		
+		
+
+	}
+
+}
