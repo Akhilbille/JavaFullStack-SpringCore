@@ -1,9 +1,0 @@
-package com.Practise1;
-
-public class Amazon {
-	
-	public Boolean deliverTheProduct() {
-		return true;
-	}
-
-}
