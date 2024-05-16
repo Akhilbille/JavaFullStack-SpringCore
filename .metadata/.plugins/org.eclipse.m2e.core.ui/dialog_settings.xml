@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="E:\Practise\Java\JavaFullStack\Spring Core\P4SpringCore3"/>
+			<item value="E:\Practise\Java\JavaFullStack\Spring Core\P2SpringCore1"/>
 			<item value="E:\Practise\Java\JavaFullStack\Spring Core\P1LooseCoupling"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -47,9 +49,17 @@
 			<item value="com.Practise"/>
 		</list>
 		<list key="name">
+			<item value="P6SpringCore5"/>
+			<item value="P5SpringCore4"/>
+			<item value="P4SpringCore3"/>
+			<item value="P3SpringCore3"/>
 			<item value="P2SpringCore1"/>
 		</list>
 		<list key="artifactId">
+			<item value="P6SpringCore5"/>
+			<item value="P5SpringCore4"/>
+			<item value="P4SpringCore3"/>
+			<item value="P3SpringCore3"/>
 			<item value="P2SpringCore1"/>
 		</list>
 		<list key="projectNameTemplate">
